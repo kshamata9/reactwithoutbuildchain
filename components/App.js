@@ -10,5 +10,5 @@ class App extends React.Component {
     }
 }
 
-const container = document.querySelector('root');
+const container = document.querySelector('#root');
 ReactDOM.render(React.createElement(App), container);
